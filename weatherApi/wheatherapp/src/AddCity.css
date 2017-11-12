@@ -1,0 +1,29 @@
+.addcity-form {
+    background-color: rgba(131, 193, 255, 0.349);
+    background-image: none;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 6px 12px;
+    display: inline-flex;
+    webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    margin-bottom: 10px;
+}
+
+.addcity-form label {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgba(0, 0, 161, 0.767);
+    font-weight: normal !important;
+    margin-right: 3px;
+}
+
+.addcity-control {
+    margin-right: 15px;
+    border-color: rgba(0, 68, 169, 0.33) !important;
+}
