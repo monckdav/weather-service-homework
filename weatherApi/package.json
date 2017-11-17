@@ -1,0 +1,35 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "RESTful weather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test implemented\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/general/RESTfulWeatherAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "weather"
+  ],
+  "author": "roman schneeweiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/general/RESTfulWeatherAPI/issues"
+  },
+  "homepage": "https://github.com/general/RESTfulWeatherAPI#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.7.1",
+    "express": "^4.16.2",
+    "react-bootstrap": "^0.31.5",
+    "react-chartjs-2": "^2.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
